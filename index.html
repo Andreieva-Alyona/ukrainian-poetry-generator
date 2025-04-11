@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Ukrainian Poem Generator</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
     <h1>AI Ukrainian Poem Generator</h1>
 </header>
 <main>
-    <form>
+    <form id="poem-generator-form">
 <input type="text" 
 placeholder="Enter the topic of the Ukranian poem" 
 autofocus
@@ -23,10 +24,8 @@ class="instraction"
 <input type="submit" class="submit-button"/>
     
     </form>
-    <div class="poem">
-        Декому краще вдаються приголосні, декому голосні.
-<br />
-На неї не можна було не звернути увагу - вона сміялася уві сні.
+    <div class="poem" id="poem">
+      
     </div>
 </main>
 
